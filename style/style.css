@@ -1,0 +1,22 @@
+.page-bg{
+  background:url('/style/image.jpg');
+  -webkit-filter: blur(1px);
+-moz-filter: blur(5px);
+-o-filter: blur(5px);
+-ms-filter: blur(5px);
+filter: blur(0px);
+position:fixed;
+width:100%;
+height:100%;
+top:0;
+left:0;
+z-index:-1;
+}
+
+#root .background-semi_transpaprent{
+    background-color: rgba(30,19,11,0.9);
+    color: #6E6258;
+    border: 1px solid #6E6258;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
